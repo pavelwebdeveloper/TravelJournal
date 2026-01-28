@@ -1,0 +1,42 @@
+
+# === Android Studio / IntelliJ ===
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# === Gradle ===
+.gradle/
+build/
+*/build/
+
+# === Local config ===
+local.properties  # SDK path
+*.keystore        # optional if you use signing keys locally
+
+# === Android artifacts ===
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# === Native / generated ===
+.cxx/
+captures/
+externalNativeBuild/
+
+# === Kotlin / KSP / Room ===
+ksp/
+*.ksp/
+generated/
+*.tmp
+
+# === Logs ===
+*.log
+
+# === OS ===
+.DS_Store
+Thumbs.db
