@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
     tableName = "travel_entries_photos",
     foreignKeys = [
         ForeignKey(
-            entity = TravelJourneyEntry::class,
+            entity = TravelJournalEntry::class,
             parentColumns = ["id"],
             childColumns = ["entryId"],
             onDelete = ForeignKey.CASCADE
